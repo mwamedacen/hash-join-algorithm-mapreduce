@@ -1,0 +1,104 @@
+Join: airport-runways.csv (2.7 Mb)  --  airports.csv (6.6 Mb)
+output: part-r-00000 
+        ~ 
+        part-r-00004 (1.6 Mb * 5)
+
+----------node---------
+Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=5
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=8400
+		Total time spent by all reduces in occupied slots (ms)=45854
+	Map-Reduce Framework
+		Map input records=45888
+		Map output records=39296
+		Map output bytes=8637594
+		Map output materialized bytes=8763111
+		Input split bytes=118
+		Combine input records=39296
+		Combine output records=39296
+		Reduce input groups=33043
+		Reduce shuffle bytes=8763111
+		Reduce input records=39296
+		Reduce output records=39296
+		Spilled Records=78592
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=1514
+		CPU time spent (ms)=20250
+		Physical memory (bytes) snapshot=938369024
+		Virtual memory (bytes) snapshot=3969355776
+		Total committed heap usage (bytes)=635174912
+
+************************************************
+Join: airport-frequencies.csv (1.1 Mb)  --  airports.csv (6.6 Mb)
+output: part-r-00000 
+        ~ 
+        part-r-00004 (1.2 Mb * 5)
+
+-----------node---------------
+Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=5
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=6804
+		Total time spent by all reduces in occupied slots (ms)=47861
+	Map-Reduce Framework
+		Map input records=45888
+		Map output records=28079
+		Map output bytes=6170742
+		Map output materialized bytes=6260611
+		Input split bytes=118
+		Combine input records=28079
+		Combine output records=28079
+		Reduce input groups=10048
+		Reduce shuffle bytes=6260611
+		Reduce input records=28079
+		Reduce output records=28079
+		Spilled Records=56158
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=633
+		CPU time spent (ms)=17790
+		Physical memory (bytes) snapshot=906227712
+		Virtual memory (bytes) snapshot=3969511424
+		Total committed heap usage (bytes)=647036928
+
+------------cluster-------------
+Job Counters 
+		Failed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=6
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=8460
+		Total time spent by all reduces in occupied slots (ms)=56243
+		Total time spent by all map tasks (ms)=8460
+		Total time spent by all reduce tasks (ms)=56243
+		Total vcore-seconds taken by all map tasks=8460
+		Total vcore-seconds taken by all reduce tasks=56243
+		Total megabyte-seconds taken by all map tasks=8663040
+		Total megabyte-seconds taken by all reduce tasks=57592832
+Map-Reduce Framework
+		Map input records=45888
+		Map output records=28079
+		Map output bytes=6170742
+		Map output materialized bytes=6260611
+		Input split bytes=121
+		Combine input records=28079
+		Combine output records=28079
+		Reduce input groups=10048
+		Reduce shuffle bytes=6260611
+		Reduce input records=28079
+		Reduce output records=28079
+		Spilled Records=56158
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=625
+		CPU time spent (ms)=17950
+		Physical memory (bytes) snapshot=1146925056
+		Virtual memory (bytes) snapshot=6363303936
+		Total committed heap usage (bytes)=1155530752
